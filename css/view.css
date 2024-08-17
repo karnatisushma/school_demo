@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbbaf6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin-top: 0px;
+}
+
+
+.student-card {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(10, 9, 9, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.student-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.student-card p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.student-card p strong {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.student-card .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    color: #560bad;
+
+}
+
+.student-card .email {
+    font-size: 16px;
+    color: #323232;
+    margin-bottom: 10px;
+}
+
+.student-card .address, 
+.student-card .created_at, 
+.student-card .class {
+    font-size: 16px;
+    color: #312f2f;
+}    

@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbbaf6;
+    margin: 0;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+}
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+    vertical-align: middle;
+}
+table th {
+    background-color: #560bad;
+    color: #fff;
+}
+
+table tr:hover {
+    background-color: #e0f2f1;
+}
+
+table a {
+    color: #560bad;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+        
+}
+
+form {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Adjust the width if needed */
+    margin: 0 auto; /* Center the form horizontally */
+    margin-bottom: 10px;
+}
+
+form input[type="text"] {
+    width: calc(100% - 90px); /* Adjusted for smaller width */
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #560bad;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #6a2eae;
+}
